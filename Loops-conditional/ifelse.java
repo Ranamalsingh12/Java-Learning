@@ -1,4 +1,4 @@
-public class Conditionloop {
+public class ifelse {
 
     public static void main (String[] args) {
 
@@ -19,6 +19,8 @@ public class Conditionloop {
         else {
             number = number + 500;
         }
+
+        // you can also write multiple if condition using (else if)
 
         System.out.println(number);
     }
