@@ -32,6 +32,5 @@ public class Switch {
                 System.out.println("Please enter a good color");
         }
 
-
     }
 }
