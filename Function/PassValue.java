@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class PassValue {
+    // lets say for scopping and shadowing we create a variable here this has to be static because you cannot use object dependent things with object independent things 
+    static int x;
+
+    // Shadowing in java basically means that using two variables with the same name with the scope that overlaps
     public static void main (String[] args) {
         int a = 10;
         int b = 50;
