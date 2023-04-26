@@ -16,10 +16,10 @@ public class PassValue {
         // lets take an example where the value will change 
 
         int[] arr = {1,2,3,4,5};
-        System.out.println(Arrays.toString(arr));
+        // System.out.println(Arrays.toString(arr));
     }
 
-    static void change(int[ num]) {
+    static void change(int[] num) {
         num[0] = 99;
 
     }
@@ -28,6 +28,6 @@ public class PassValue {
     static void SwapNumber (int a , int b) {
         int temp = a;
         a = b;
-        b = templ
+        b = temp;
     }
 }

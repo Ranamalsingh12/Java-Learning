@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Switch {
+public class Array2d {
     public static void main (String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -14,17 +14,17 @@ public class Switch {
         for (int i = 0; i < arr2D.length; i++) {
             // for each column in every row
 
-            for (j = 0; i < arr2D[i].length; i++ ) {
-                arr[i][j] = int.nextInt();
-            }
+            // for (j = 0; i < arr2D[i].length; i++ ) {
+            //     arr[i][j] = int.nextInt();
+            // }
         }
 
         for (int i = 0; i < arr2D.length; i++) {
             // for each column in every row
 
-            for (j = 0; i < arr2D[i].length; i++ ) {
-                System.out.println(arr[i][j] + " ");
-            }
+            // for (j = 0; i < arr2D[i].length; i++ ) {
+            //     System.out.println(arr[i][j] + " ");
+            // }
             System.out.println();
         }
     }

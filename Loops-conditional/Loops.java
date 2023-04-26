@@ -7,7 +7,7 @@ public class Loops {
         // Q Print Hello world 10 times;
 
         for (int n = 1; n<=10 ; n += 1){
-            System.out.println("Hello world")
+            System.out.println("Hello world");
         }
         // Printing the numbers according to the user input from 1 to n (n = user input);
         Scanner input = new Scanner(System.in);
@@ -33,13 +33,13 @@ public class Loops {
         } */
 
         int dowhile = 1;
-        do {
-            System.out.println(dowhile);
-            dowhile++;
-        } while (dowhile < 5) {
-            System.out.println("This is because of do-while loop");
-            dowhile++ ; 
-        }
+        // do {
+        //     System.out.println(dowhile);
+        //     dowhile++;
+        // }while (dowhile < 5){
+        //     System.out.println("This is because of do-while loop");
+        //     dowhile++ ; 
+        // }
 
         // We use do-while loop if we want to run the code atleast once 
     }
