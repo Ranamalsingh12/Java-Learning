@@ -32,3 +32,6 @@ public class StringB {
         }
     }
 }
+
+
+// this is for the culture 
